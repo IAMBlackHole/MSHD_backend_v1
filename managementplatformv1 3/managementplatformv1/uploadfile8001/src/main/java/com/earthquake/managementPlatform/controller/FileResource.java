@@ -23,6 +23,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -64,7 +65,7 @@ public class FileResource {
 
     @PostMapping("/v1/addRecode")
     public PostVo addRecode(HttpServletRequest request) throws IOException {
-        BufferedReader streamReader = new BufferedReader(new InputStreamReader(request.getInputStream(), "UTF-8"));
+        BufferedReader streamReader = new BufferedReader(new InputStreamReader(request.getInputStream(), StandardCharsets.UTF_8));
         return addRecordService.AddRecord(streamReader);
     }
 

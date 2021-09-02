@@ -38,7 +38,7 @@ public interface SettlementRecordMapper {
 
     @Select("SELECT * FROM earthquake.settlementrecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "settlementRecordMap")
-    public SettlementRecord getSettlementRecordById(String id);
+    SettlementRecord getSettlementRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface SettlementRecordMapper {
 
     @Select("select * from earthquake.settlementrecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "settlementRecordMap")
-    public List<SettlementRecord> getCopySettlementRecord(@Param("time") int time);
+    List<SettlementRecord> getCopySettlementRecord(@Param("time") int time);
 }

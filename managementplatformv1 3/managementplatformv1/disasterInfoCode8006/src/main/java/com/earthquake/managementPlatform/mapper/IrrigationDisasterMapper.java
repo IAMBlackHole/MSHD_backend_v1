@@ -6,5 +6,5 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface IrrigationDisasterMapper {
     @Select("SELECT max(ID) FROM earthquake.irrigationdisaster WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
-    public String getSomeIrrigationDisasterByACId(String adminCateId);
+    String getSomeIrrigationDisasterByACId(String adminCateId);
 }

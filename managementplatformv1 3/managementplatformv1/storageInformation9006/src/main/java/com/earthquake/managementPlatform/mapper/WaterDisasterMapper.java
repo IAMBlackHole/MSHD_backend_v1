@@ -38,7 +38,7 @@ public interface WaterDisasterMapper {
 
     @Select("SELECT * FROM earthquake.waterdisaster WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "waterDisasterMap")
-    public WaterDisaster getWaterDisasterById(String id);
+    WaterDisaster getWaterDisasterById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface WaterDisasterMapper {
 
     @Select("select * from earthquake.waterdisaster where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "waterDisasterMap")
-    public List<WaterDisaster> getCopyWaterDisaster(@Param("time") int time);
+    List<WaterDisaster> getCopyWaterDisaster(@Param("time") int time);
 }

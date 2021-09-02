@@ -36,7 +36,7 @@ public interface MissingStatisticsMapper {
 
     @Select("SELECT * FROM earthquake.missingstatistics WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "missingStatisticsMap")
-    public MissingStatistics getMissingStatisticsById(String id);
+    MissingStatistics getMissingStatisticsById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -66,5 +66,5 @@ public interface MissingStatisticsMapper {
 
     @Select("select * from earthquake.missingstatistics where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "missingStatisticsMap")
-    public List<MissingStatistics> getCopyMissingStatistics(@Param("time") int time);
+    List<MissingStatistics> getCopyMissingStatistics(@Param("time") int time);
 }

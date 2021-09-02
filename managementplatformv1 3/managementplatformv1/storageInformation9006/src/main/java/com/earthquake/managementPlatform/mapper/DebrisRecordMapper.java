@@ -38,7 +38,7 @@ public interface DebrisRecordMapper {
 
     @Select("SELECT * FROM earthquake.debrisrecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "debrisRecordMap")
-    public DebrisRecord getDebrisRecordById(String id);
+    DebrisRecord getDebrisRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface DebrisRecordMapper {
 
     @Select("select * from earthquake.debrisrecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "debrisRecordMap")
-    public List<DebrisRecord> getCopyDebrisRecord(@Param("time") int time);
+    List<DebrisRecord> getCopyDebrisRecord(@Param("time") int time);
 }

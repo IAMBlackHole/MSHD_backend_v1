@@ -6,5 +6,5 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public interface FileBehavior {
-    public JSONArray transferToJson(String filePath) throws IOException;
+    JSONArray transferToJson(String filePath) throws IOException;
 }

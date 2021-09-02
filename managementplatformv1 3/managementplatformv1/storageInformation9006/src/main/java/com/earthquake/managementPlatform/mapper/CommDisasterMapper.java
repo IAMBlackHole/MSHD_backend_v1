@@ -39,7 +39,7 @@ public interface CommDisasterMapper {
 
     @Select("SELECT * FROM earthquake.commdisaster WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "commDisasterMap")
-    public CommDisaster getCommDisasterById(String id);
+    CommDisaster getCommDisasterById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -69,7 +69,7 @@ public interface CommDisasterMapper {
 
     @Select("select * from earthquake.commdisaster where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "commDisasterMap")
-    public List<CommDisaster> getCopyCommDisaster(@Param("time") int time);
+    List<CommDisaster> getCopyCommDisaster(@Param("time") int time);
 
 
 }

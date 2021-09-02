@@ -40,7 +40,7 @@ public interface BasicEarthquakeInfoMapper{
 
     @Select("SELECT * FROM earthquake.disasterinfo WHERE D_ID = #{id} FOR UPDATE")
     @ResultMap(value = "disasterInfoMap")
-    public BasicEarthquakeInfo getDisasterInfoById(String id);
+    BasicEarthquakeInfo getDisasterInfoById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -71,10 +71,10 @@ public interface BasicEarthquakeInfoMapper{
 
     @Select("SELECT * FROM earthquake.disasterinfo order by date desc limit 1 FOR UPDATE")
     @ResultMap(value = "disasterInfoMap")
-    public BasicEarthquakeInfo getLastDisasterInfo();
+    BasicEarthquakeInfo getLastDisasterInfo();
 
     @Select("select * from earthquake.disasterinfo where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "disasterInfoMap")
-    public List<BasicEarthquakeInfo> getCopyDisasterInfo(@Param("time") int time);
+    List<BasicEarthquakeInfo> getCopyDisasterInfo(@Param("time") int time);
 
 }

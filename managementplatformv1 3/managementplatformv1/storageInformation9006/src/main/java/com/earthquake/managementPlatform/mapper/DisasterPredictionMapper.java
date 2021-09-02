@@ -34,7 +34,7 @@ public interface DisasterPredictionMapper {
 
     @Select("SELECT * FROM earthquake.disasterprediction WHERE D_ID = #{D_ID} AND S_ID = #{S_ID} FOR UPDATE")
     @ResultMap(value = "disasterPredictionMap")
-    public DisasterPrediction getDisasterPredictionById(@Param("D_ID")String D_ID,@Param("S_ID")String S_ID);
+    DisasterPrediction getDisasterPredictionById(@Param("D_ID") String D_ID, @Param("S_ID") String S_ID);
 
     @Insert("INSERT INTO `earthquake`.`disasterprediction` (`D_ID`, `S_ID`, `date`, `grade`, `intensity`, `type`, `picture`) VALUES (#{D_ID}, #{S_ID}, #{date}, #{grade}, #{intensity}, #{type}, #{picture});\n")
     int save(DisasterPrediction disasterPrediction);
@@ -47,6 +47,6 @@ public interface DisasterPredictionMapper {
 
     @Select("select * from earthquake.disasterprediction where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "disasterPredictionMap")
-    public List<DisasterPrediction> getCopyDisasterPrediction(@Param("time") int time);
+    List<DisasterPrediction> getCopyDisasterPrediction(@Param("time") int time);
 
 }

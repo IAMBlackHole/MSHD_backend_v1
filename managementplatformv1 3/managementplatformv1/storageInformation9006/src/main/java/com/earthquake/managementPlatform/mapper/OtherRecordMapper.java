@@ -38,7 +38,7 @@ public interface OtherRecordMapper {
 
     @Select("SELECT * FROM earthquake.otherrecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "otherRecordMap")
-    public OtherRecord getOtherRecordById(String id);
+    OtherRecord getOtherRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface OtherRecordMapper {
 
     @Select("select * from earthquake.otherrecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "otherRecordMap")
-    public List<OtherRecord> getCopyOtherRecord(@Param("time") int time);
+    List<OtherRecord> getCopyOtherRecord(@Param("time") int time);
 }

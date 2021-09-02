@@ -4,8 +4,8 @@ import javax.annotation.Resource;
 
 public class EarthquakeCodeByTime implements EarthquakeCode{
 
-    private String administrativeRegionCode;
-    private String time;
+    private final String administrativeRegionCode;
+    private final String time;
 
     public EarthquakeCodeByTime(String  administrativeRegionCode,String time) {
         this.administrativeRegionCode = administrativeRegionCode;

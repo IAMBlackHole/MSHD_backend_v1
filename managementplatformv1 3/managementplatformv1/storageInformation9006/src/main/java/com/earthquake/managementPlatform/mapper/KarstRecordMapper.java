@@ -38,7 +38,7 @@ public interface KarstRecordMapper {
 
     @Select("SELECT * FROM earthquake.karstrecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "karstRecordMap")
-    public KarstRecord getKarstRecordById(String id);
+    KarstRecord getKarstRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface KarstRecordMapper {
 
     @Select("select * from earthquake.karstrecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "karstRecordMap")
-    public List<KarstRecord> getCopyKarstRecord(@Param("time") int time);
+    List<KarstRecord> getCopyKarstRecord(@Param("time") int time);
 }

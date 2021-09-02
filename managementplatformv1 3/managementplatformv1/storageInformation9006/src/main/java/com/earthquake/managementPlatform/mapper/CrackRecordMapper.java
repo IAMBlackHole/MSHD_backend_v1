@@ -38,7 +38,7 @@ public interface CrackRecordMapper {
 
     @Select("SELECT * FROM earthquake.crackrecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "crackRecordMap")
-    public CrackRecord getCrackRecordById(String id);
+    CrackRecord getCrackRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface CrackRecordMapper {
 
     @Select("select * from earthquake.crackrecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "crackRecordMap")
-    public List<CrackRecord> getCopyCrackRecord(@Param("time") int time);
+    List<CrackRecord> getCopyCrackRecord(@Param("time") int time);
 }

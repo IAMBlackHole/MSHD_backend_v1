@@ -36,7 +36,7 @@ public interface BrickwoodStructureMapper {
 
     @Select("SELECT * FROM earthquake.brickwoodstructure WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "brickwoodStructureMap")
-    public BrickwoodStructure getBrickwoodStructureById(String id);
+    BrickwoodStructure getBrickwoodStructureById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -70,7 +70,7 @@ public interface BrickwoodStructureMapper {
 
     @Select("select * from earthquake.brickwoodstructure where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "brickwoodStructureMap")
-    public List<BrickwoodStructure> getCopyBrickwoodStructure(@Param("time") int time);
+    List<BrickwoodStructure> getCopyBrickwoodStructure(@Param("time") int time);
 
 
 }

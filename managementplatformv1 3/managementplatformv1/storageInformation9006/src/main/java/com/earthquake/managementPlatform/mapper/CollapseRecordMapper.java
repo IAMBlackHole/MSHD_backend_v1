@@ -38,7 +38,7 @@ public interface CollapseRecordMapper {
 
     @Select("SELECT * FROM earthquake.collapserecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "collapseRecordMap")
-    public CollapseRecord getCollapseRecordById(String id);
+    CollapseRecord getCollapseRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface CollapseRecordMapper {
 
     @Select("select * from earthquake.collapserecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "collapseRecordMap")
-    public List<CollapseRecord> getCopyCollapseRecord(@Param("time") int time);
+    List<CollapseRecord> getCopyCollapseRecord(@Param("time") int time);
 }

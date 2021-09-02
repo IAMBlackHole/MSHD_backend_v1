@@ -25,7 +25,7 @@ public interface DisasterRequestMapper {
 
     @Select("SELECT * FROM earthquake.disasterrequest WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "disasterRequestMap")
-    public DisasterRequest getDisasterRequestById(int id);
+    DisasterRequest getDisasterRequestById(int id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);

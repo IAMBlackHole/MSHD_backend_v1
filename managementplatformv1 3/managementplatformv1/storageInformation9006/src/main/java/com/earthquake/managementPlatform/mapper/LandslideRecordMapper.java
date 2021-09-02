@@ -38,7 +38,7 @@ public interface LandslideRecordMapper {
 
     @Select("SELECT * FROM earthquake.landsliderecord WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "landslideRecordMap")
-    public LandslideRecord getLandslideRecordById(String id);
+    LandslideRecord getLandslideRecordById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -68,5 +68,5 @@ public interface LandslideRecordMapper {
 
     @Select("select * from earthquake.landsliderecord where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "landslideRecordMap")
-    public List<LandslideRecord> getCopyLandslideRecord(@Param("time") int time);
+    List<LandslideRecord> getCopyLandslideRecord(@Param("time") int time);
 }

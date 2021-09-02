@@ -70,73 +70,73 @@ public class DisasterInfoFactory {
             disasterInformationStorage = disasterPredictionStorage;
         }
 
-        else if(type.substring(12, 15).equals("551")){
+        else if(type.startsWith("551", 12)){
             disasterInformationStorage = basicEarthquakeInformationStorage;
         }
-        else if(type.substring(12, 15).equals("111")){
+        else if(type.startsWith("111", 12)){
             disasterInformationStorage = deathStatisticsStorage;
         }
-        else if(type.substring(12, 15).equals("112")){
+        else if(type.startsWith("112", 12)){
             disasterInformationStorage = injuredStatisticsStorage;
         }
-        else if(type.substring(12, 15).equals("113")){
+        else if(type.startsWith("113", 12)){
             disasterInformationStorage = missingStatisticsStorage;
         }
-        else if(type.substring(12, 15).equals("221")){
+        else if(type.startsWith("221", 12)){
             disasterInformationStorage = civilStructureStorage;
         }
-        else if(type.substring(12, 15).equals("222")){
+        else if(type.startsWith("222", 12)){
             disasterInformationStorage = brickwoodStructureStorage;
         }
-        else if(type.substring(12, 15).equals("223")){
+        else if(type.startsWith("223", 12)){
             disasterInformationStorage = masonryStructureStorage;
         }
-        else if(type.substring(12, 15).equals("224")){
+        else if(type.startsWith("224", 12)){
             disasterInformationStorage = frameworkStructureStorage;
         }
-        else if(type.substring(12, 15).equals("225")){
+        else if(type.startsWith("225", 12)){
             disasterInformationStorage = otherStructureStorage;
         }
-        else if(type.substring(12, 15).equals("331")){
+        else if(type.startsWith("331", 12)){
             disasterInformationStorage = trafficDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("332")){
+        else if(type.startsWith("332", 12)){
             disasterInformationStorage = waterDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("333")){
+        else if(type.startsWith("333", 12)){
             disasterInformationStorage = oilDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("334")){
+        else if(type.startsWith("334", 12)){
             disasterInformationStorage = gasDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("335")){
+        else if(type.startsWith("335", 12)){
             disasterInformationStorage = powerDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("336")){
+        else if(type.startsWith("336", 12)){
             disasterInformationStorage = commDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("337")){
+        else if(type.startsWith("337", 12)){
             disasterInformationStorage = irrigationDisasterStorage;
         }
-        else if(type.substring(12, 15).equals("441")){
+        else if(type.startsWith("441", 12)){
             disasterInformationStorage = collapseRecordStorage;
         }
-        else if(type.substring(12, 15).equals("442")){
+        else if(type.startsWith("442", 12)){
             disasterInformationStorage = landslideRecordStorage;
         }
-        else if(type.substring(12, 15).equals("443")){
+        else if(type.startsWith("443", 12)){
             disasterInformationStorage = debrisRecordStorage;
         }
-        else if(type.substring(12, 15).equals("444")){
+        else if(type.startsWith("444", 12)){
             disasterInformationStorage = karstRecordStorage;
         }
-        else if(type.substring(12, 15).equals("445")){
+        else if(type.startsWith("445", 12)){
             disasterInformationStorage = crackRecordStorage;
         }
-        else if(type.substring(12, 15).equals("446")){
+        else if(type.startsWith("446", 12)){
             disasterInformationStorage = settlementRecordStorage;
         }
-        else if(type.substring(12, 15).equals("447")){
+        else if(type.startsWith("447", 12)){
             disasterInformationStorage = otherRecordStorage;
         }
         return disasterInformationStorage;

@@ -41,7 +41,7 @@ public interface FrameworkStructureMapper {
 
     @Select("SELECT * FROM earthquake.frameworkstructure WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "frameworkStructureMap")
-    public FrameworkStructure getFrameworkStructureById(String id);
+    FrameworkStructure getFrameworkStructureById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -75,5 +75,5 @@ public interface FrameworkStructureMapper {
 
     @Select("select * from earthquake.frameworkstructure where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "frameworkStructureMap")
-    public List<FrameworkStructure> getCopyFrameworkStructure(@Param("time") int time);
+    List<FrameworkStructure> getCopyFrameworkStructure(@Param("time") int time);
 }

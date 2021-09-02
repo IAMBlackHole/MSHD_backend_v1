@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DayDate {
-    private Date date;
+    private final Date date;
 
     public DayDate(){
         this.date = new Date();

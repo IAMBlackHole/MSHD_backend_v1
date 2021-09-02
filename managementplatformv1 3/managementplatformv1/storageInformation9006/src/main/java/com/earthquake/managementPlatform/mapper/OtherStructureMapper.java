@@ -41,7 +41,7 @@ public interface OtherStructureMapper {
 
     @Select("SELECT * FROM earthquake.otherstructure WHERE ID = #{id} FOR UPDATE")
     @ResultMap(value = "otherStructureMap")
-    public OtherStructure getOtherStructureById(String id);
+    OtherStructure getOtherStructureById(String id);
 
 //    @Select("SELECT max(ID) FROM earthquake.disasterinfo WHERE ID like concat(#{adminCateId},'%') FOR UPDATE")
 //    public String getSomeDisasterInfoByACId(String adminCateId);
@@ -75,5 +75,5 @@ public interface OtherStructureMapper {
 
     @Select("select * from earthquake.otherstructure where date <  NOW() - interval #{time} hour;")
     @ResultMap(value = "otherStructureMap")
-    public List<OtherStructure> getCopyOtherStructure(@Param("time") int time);
+    List<OtherStructure> getCopyOtherStructure(@Param("time") int time);
 }

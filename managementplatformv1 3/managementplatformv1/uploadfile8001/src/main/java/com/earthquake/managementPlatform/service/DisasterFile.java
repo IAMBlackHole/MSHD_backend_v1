@@ -14,5 +14,5 @@ public abstract class DisasterFile {
 
     public JSONArray fileToJson() throws IOException{
         return fileBehavior.transferToJson(filePath);
-    };
+    }
 }
