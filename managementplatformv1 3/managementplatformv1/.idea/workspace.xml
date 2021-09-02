@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/cloudEurekaServer7001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/cloudEurekaServer7001-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/cloudEurekaServer7001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/cloudEurekaServer7001-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloudEurekaServer7001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/cloudZuulServer6542-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/cloudZuulServer6542-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/cloudZuulServer6542-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/cloudZuulServer6542-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloudZuulServer6542/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/dataBackup6005.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/dataBackup6005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BackupTimeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BackupTimeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BrickwoodStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/BrickwoodStructureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CivilStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CivilStructureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CommDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CommDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CrackRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/CrackRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DebrisRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DebrisRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DisasterPredictionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/DisasterPredictionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/FrameworkStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/FrameworkStructureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/GasDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/GasDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/IrrigationDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/IrrigationDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/KarstRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/KarstRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/LandslideRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/LandslideRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/MasonryStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/MasonryStructureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/MissingStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/MissingStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OilDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OilDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OtherRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OtherRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OtherStructureMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/OtherStructureMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/PowerDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/PowerDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/ScheduleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/ScheduleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/SettlementRecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/SettlementRecordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/TrafficDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/TrafficDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/WaterDisasterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/mapper/WaterDisasterMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/service/BackupScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/java/com/earthquake/managementPlatform/service/BackupScheduleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/dataBackup6005.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/dataBackup6005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BackupTimeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BackupTimeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BrickwoodStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/BrickwoodStructureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CivilStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CivilStructureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CollapseRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CommDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CommDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CrackRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/CrackRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DeathStatisticsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DebrisRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DebrisRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DisasterPredictionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/DisasterPredictionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/FrameworkStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/FrameworkStructureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/GasDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/GasDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/IrrigationDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/IrrigationDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/KarstRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/KarstRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/LandslideRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/LandslideRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/MasonryStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/MasonryStructureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/MissingStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/MissingStatisticsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OilDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OilDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OtherRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OtherRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OtherStructureMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/OtherStructureMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/PowerDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/PowerDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/ScheduleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/ScheduleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/SettlementRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/SettlementRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/TrafficDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/TrafficDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/WaterDisasterMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/mapper/WaterDisasterMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/service/BackupScheduleService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/service/BackupScheduleService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/service/BackupScheduleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/classes/com/earthquake/managementPlatform/service/BackupScheduleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/dataBackup6005-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBackup6005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dataBackup6005/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/src/main/java/com/earthquake/managementPlatform/controller/CodeResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/disasterInfoCode8006-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/disasterInfoCode8006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/src/main/java/com/earthquake/managementPlatform/controller/DisasterRequestResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/src/main/java/com/earthquake/managementPlatform/controller/DisasterRequestResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/src/main/java/com/earthquake/managementPlatform/service/impl/OutPutImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/src/main/java/com/earthquake/managementPlatform/service/impl/OutPutImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/classes/com/earthquake/managementPlatform/controller/DisasterRequestResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/classes/com/earthquake/managementPlatform/controller/DisasterRequestResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/classes/com/earthquake/managementPlatform/service/impl/OutPutImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/classes/com/earthquake/managementPlatform/service/impl/OutPutImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/output6001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/output6001-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output6001/target/output6001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/output6001/target/output6001-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DeathStatisticsResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/DeathStatisticsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/InformationResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/controller/InformationResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/entities/DisasterPrediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/entities/DisasterPrediction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/BasicEarthquakeInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/java/com/earthquake/managementPlatform/mapper/InjuredStatisticsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DeathStatisticsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/DeathStatisticsResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/InformationResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/controller/InformationResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/entities/DisasterPrediction.class" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/classes/com/earthquake/managementPlatform/entities/DisasterPrediction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/storageInformation9006-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/storageInformation9006-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storageInformation9006/target/storageInformation9006-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/storageInformation9006/target/storageInformation9006-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/UploadFile8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/UploadFile8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/service/FtpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/java/com/earthquake/managementPlatform/service/FtpMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/UploadFile8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/UploadFile8001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/service/FtpMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/classes/com/earthquake/managementPlatform/service/FtpMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/uploadfile8001/target/uploadfile8001-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/classes/META-INF/userManagement5001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/userManagement5001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/userManagement5001-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userManagement5001/target/userManagement5001-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/userManagement5001/target/userManagement5001-1.0-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jOyDXenRVwVxP2qYKcoNrdCtW2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28850573" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.earthquake.managementPlatform.controller" />
+      <recent name="com.earthquake.managementPlatform.service.impl" />
+      <recent name="com.earthquake.managementPlatform.entities" />
+      <recent name="com.earthquake.managementPlatform.service" />
+      <recent name="com.earthquake.managementPlatform.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.earthquake.managementPlatform.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\managementplatformv1\uploadfile8001\src\main\java\com\earthquake\managementPlatform\service" />
+      <recent name="D:\managementplatformv1\storageInformation9006\src\main\java\com\earthquake\managementPlatform" />
+      <recent name="D:\managementplatformv1\storageInformation9001\src\main\java\com\earthquake\managementPlatform" />
+      <recent name="D:\managementplatformv1\managementInformation9002\src\main\java" />
+      <recent name="D:\managementplatformv1\managementInformation9002\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.earthquake.managementPlatform.config" />
+      <recent name="com.earthquake.managementPlatform.entities" />
+      <recent name="com.earthquake.managementPlatform.controller" />
+      <recent name="com.earthquake.managementPlatform.mapper" />
+      <recent name="com.earthquake.managementPlatform.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\项目\managementplatformv1 3\managementplatformv1\predictionModel7700" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.dataBackup6005">
+    <configuration name="DataBackup6005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dataBackup6005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.DataBackup6005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="predictionModel7700" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisasterInfoCode8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="disasterInfoCode8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.DisasterInfoCode8006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisasterInfoCode8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="disasterInfoCode8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.DisasterInfoCode8007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudEurekaServer7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earthquake.managementPlatform.DataBackup6005" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.Eureka7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eureka7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudEurekaServer7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.Eureka7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutPut6001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="output6001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earthquake.managementPlatform.DataBackup6005" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.OutPut6001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageInformation9007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="storageInformation9007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.StorageInformation9007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StorageInformation9008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="storageInformation9008" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.StorageInformation9008" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFile8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="uploadfile8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.UploadFile8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManagement5001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="userManagement5001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.UserManagement5001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zuul6542" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudZuulServer6542" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earthquake.managementPlatform.DataBackup6005" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.Zuul6542" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dataBackup6005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dataBackup6005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earthquake.managementPlatform.DataBackup6005" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.dataBackup6005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="storageInformation9006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="storageInformation9006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.earthquake.managementPlatform.DataBackup6005" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.storageInformation9006" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="storageInformation9007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="storageInformation9007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.storageInformation9007" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="storageInformation9008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="storageInformation9007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earthquake.managementPlatform.storageInformation9008" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.DataBackup6005" />
+      <item itemvalue="Spring Boot.Eureka7002" />
+      <item itemvalue="Spring Boot.UploadFile8001" />
+      <item itemvalue="Spring Boot.DisasterInfoCode8006" />
+      <item itemvalue="Spring Boot.storageInformation9007" />
+      <item itemvalue="Spring Boot.storageInformation9008" />
+      <item itemvalue="Spring Boot.DisasterInfoCode8007" />
+      <item itemvalue="Spring Boot.UserManagement5001" />
+      <item itemvalue="Spring Boot.StorageInformation9008" />
+      <item itemvalue="Spring Boot.StorageInformation9007" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.storageInformation9006" />
+      <item itemvalue="Spring Boot.Eureka7001" />
+      <item itemvalue="Spring Boot.OutPut6001" />
+      <item itemvalue="Spring Boot.Zuul6542" />
+      <item itemvalue="Spring Boot.dataBackup6005" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.dataBackup6005" />
+        <item itemvalue="Spring Boot.Eureka7001" />
+        <item itemvalue="Spring Boot.storageInformation9006" />
+        <item itemvalue="Spring Boot.OutPut6001" />
+        <item itemvalue="Spring Boot.Zuul6542" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b4a7d3-a29b-470d-8a2f-28281603307b" name="Default Changelist" comment="" />
+      <created>1603689315077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603689315077</updated>
+      <workItem from="1603689316141" duration="472000" />
+      <workItem from="1603689844624" duration="373000" />
+      <workItem from="1603690233663" duration="986000" />
+      <workItem from="1603691232794" duration="8760000" />
+      <workItem from="1603701352426" duration="5552000" />
+      <workItem from="1603719983777" duration="1967000" />
+      <workItem from="1603762653680" duration="3456000" />
+      <workItem from="1603766163312" duration="12290000" />
+      <workItem from="1603802259188" duration="15809000" />
+      <workItem from="1603853280587" duration="35867000" />
+      <workItem from="1604279953252" duration="68000" />
+      <workItem from="1604280037951" duration="529000" />
+      <workItem from="1604280575260" duration="546000" />
+      <workItem from="1604281136826" duration="602000" />
+      <workItem from="1604281784516" duration="48000" />
+      <workItem from="1604281844596" duration="2394000" />
+      <workItem from="1604301056534" duration="464000" />
+      <workItem from="1604301537546" duration="19791000" />
+      <workItem from="1604370774815" duration="9065000" />
+      <workItem from="1604540391009" duration="3254000" />
+      <workItem from="1605859936751" duration="22721000" />
+      <workItem from="1606100231463" duration="17204000" />
+      <workItem from="1606179235916" duration="1395000" />
+      <workItem from="1606181915937" duration="76902000" />
+      <workItem from="1607479838730" duration="1029000" />
+      <workItem from="1607481703550" duration="37846000" />
+      <workItem from="1607746478669" duration="75873000" />
+      <workItem from="1608718109909" duration="1969000" />
+      <workItem from="1608776816608" duration="752000" />
+      <workItem from="1608796817866" duration="376000" />
+      <workItem from="1608797230204" duration="1444000" />
+      <workItem from="1608800498603" duration="2963000" />
+      <workItem from="1608813185613" duration="4278000" />
+      <workItem from="1608894015309" duration="704000" />
+      <workItem from="1609143181484" duration="3211000" />
+      <workItem from="1609321135948" duration="6169000" />
+      <workItem from="1609726827398" duration="8974000" />
+      <workItem from="1609847759136" duration="1914000" />
+      <workItem from="1609925132101" duration="3278000" />
+      <workItem from="1610338457637" duration="1646000" />
+      <workItem from="1610435499177" duration="11394000" />
+      <workItem from="1610532542842" duration="4314000" />
+      <workItem from="1610799883992" duration="6985000" />
+      <workItem from="1610957142183" duration="8022000" />
+      <workItem from="1611382791032" duration="1593000" />
+      <workItem from="1611410179543" duration="727000" />
+      <workItem from="1611474155509" duration="3164000" />
+      <workItem from="1611569117782" duration="7693000" />
+      <workItem from="1611671752036" duration="3057000" />
+      <workItem from="1611736540075" duration="356000" />
+      <workItem from="1611798555555" duration="15321000" />
+      <workItem from="1611893174589" duration="3912000" />
+      <workItem from="1611983723790" duration="4596000" />
+      <workItem from="1612246441098" duration="46000" />
+      <workItem from="1614332218245" duration="230000" />
+      <workItem from="1614514677030" duration="8580000" />
+      <workItem from="1614580973738" duration="7557000" />
+      <workItem from="1614659669149" duration="1008000" />
+      <workItem from="1614692433414" duration="1011000" />
+      <workItem from="1614739140333" duration="345000" />
+      <workItem from="1614849042263" duration="4149000" />
+      <workItem from="1614912323969" duration="3416000" />
+      <workItem from="1615009154435" duration="5765000" />
+      <workItem from="1615173638761" duration="7270000" />
+      <workItem from="1616140891431" duration="5886000" />
+      <workItem from="1616376775437" duration="737000" />
+      <workItem from="1616377533153" duration="12942000" />
+      <workItem from="1616463957201" duration="3691000" />
+      <workItem from="1616568510422" duration="16077000" />
+      <workItem from="1616815706512" duration="474000" />
+      <workItem from="1616816332685" duration="646000" />
+      <workItem from="1617069200907" duration="2085000" />
+      <workItem from="1617190959829" duration="9508000" />
+      <workItem from="1617240571885" duration="5233000" />
+      <workItem from="1617609190990" duration="1813000" />
+      <workItem from="1617673003509" duration="510000" />
+      <workItem from="1617777612223" duration="2014000" />
+      <workItem from="1618214930448" duration="4712000" />
+      <workItem from="1618278354775" duration="7011000" />
+      <workItem from="1618296790283" duration="9543000" />
+      <workItem from="1618363272222" duration="2831000" />
+      <workItem from="1618475927296" duration="50000" />
+      <workItem from="1618490088629" duration="1322000" />
+      <workItem from="1618537178211" duration="2106000" />
+      <workItem from="1618560544239" duration="4616000" />
+      <workItem from="1618570157747" duration="7736000" />
+      <workItem from="1618626414344" duration="12120000" />
+      <workItem from="1618723567641" duration="4375000" />
+      <workItem from="1618795869287" duration="1346000" />
+      <workItem from="1618815799708" duration="8227000" />
+      <workItem from="1618883978888" duration="4752000" />
+      <workItem from="1618897460841" duration="8754000" />
+      <workItem from="1618989420602" duration="2311000" />
+      <workItem from="1619141649014" duration="1635000" />
+      <workItem from="1619145303357" duration="3097000" />
+      <workItem from="1619236581797" duration="1288000" />
+      <workItem from="1619319504939" duration="4176000" />
+      <workItem from="1619421771680" duration="2655000" />
+      <workItem from="1619490118640" duration="594000" />
+      <workItem from="1619507291572" duration="1888000" />
+      <workItem from="1619528002442" duration="1042000" />
+      <workItem from="1619680552972" duration="341000" />
+      <workItem from="1619693846678" duration="4320000" />
+      <workItem from="1619786135127" duration="10000" />
+      <workItem from="1619789026680" duration="2035000" />
+      <workItem from="1620267268452" duration="12346000" />
+      <workItem from="1620355537934" duration="848000" />
+      <workItem from="1620376292612" duration="3415000" />
+      <workItem from="1620438117123" duration="14974000" />
+      <workItem from="1620527876072" duration="5701000" />
+      <workItem from="1620716100251" duration="7168000" />
+      <workItem from="1620822083430" duration="1926000" />
+      <workItem from="1621044235165" duration="3980000" />
+      <workItem from="1621129971005" duration="1029000" />
+      <workItem from="1621263038725" duration="6490000" />
+      <workItem from="1621300537448" duration="821000" />
+      <workItem from="1621666356490" duration="5969000" />
+      <workItem from="1621695324842" duration="1870000" />
+      <workItem from="1621823759996" duration="2719000" />
+      <workItem from="1622170654078" duration="4264000" />
+      <workItem from="1622187665133" duration="1630000" />
+      <workItem from="1622265754647" duration="474000" />
+      <workItem from="1622272287427" duration="1193000" />
+      <workItem from="1622529630430" duration="1190000" />
+      <workItem from="1622873528322" duration="1572000" />
+      <workItem from="1623399052703" duration="1125000" />
+      <workItem from="1623411002005" duration="1221000" />
+      <workItem from="1627528012304" duration="1204000" />
+      <workItem from="1627722553842" duration="227000" />
+      <workItem from="1627785887589" duration="8888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1469" y="93" key="#Project_Structure" timestamp="1619680723114">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1469" y="93" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1619680723114" />
+    <state x="-1256" y="387" width="592" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1620459339719">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1256" y="387" width="592" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1620459339718" />
+    <state x="-669" y="187" key="FileChooserDialogImpl" timestamp="1621130283962">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-669" y="187" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621130283962" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1627795445999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622186533240" />
+    <state width="1024" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627795445999" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473472" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1627795445999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622186533240" />
+    <state width="1024" height="170" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627795445999" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473472" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1627795445999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622186533239" />
+    <state width="1024" height="170" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685902" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627795445999" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473472" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1627795445999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622186533240" />
+    <state width="1024" height="170" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627795445999" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473472" />
+    <state width="1293" height="170" key="GridCell.Tab.1.bottom" timestamp="1622189473467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621864813883" />
+    <state width="1024" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
+    <state width="1293" height="170" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473467" />
+    <state width="1293" height="170" key="GridCell.Tab.1.center" timestamp="1622189473466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="170" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621864813883" />
+    <state width="1024" height="170" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
+    <state width="1293" height="170" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473466" />
+    <state width="1293" height="170" key="GridCell.Tab.1.left" timestamp="1622189473466">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="170" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621864813883" />
+    <state width="1024" height="170" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
+    <state width="1293" height="170" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473466" />
+    <state width="1293" height="170" key="GridCell.Tab.1.right" timestamp="1622189473467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="170" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1621864813883" />
+    <state width="1024" height="170" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1619430685903" />
+    <state width="1024" height="170" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1619426359013" />
+    <state width="1293" height="170" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622189473467" />
+    <state x="-1719" y="0" width="1093" height="824" key="SettingsEditor" timestamp="1622186308103">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1719" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622186308103" />
+    <state x="461" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1627785897682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1344" y="304" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1622277257659" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1622265773888" />
+    <state x="461" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1627785897682" />
+    <state x="576" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622187665174" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1620441764600">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1620441764600" />
+  </component>
+</project>

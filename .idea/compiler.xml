@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="disasterInfoCode8006" />
+        <module name="uploadfile8001" />
+        <module name="cloudEurekaServer7001" />
+        <module name="storageInformation9006" />
+        <module name="cloudZuulServer6542" />
+        <module name="userManagement5001" />
+        <module name="dataBackup6005" />
+        <module name="output6001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloudEurekaServer7001" target="1.8" />
+      <module name="cloudZuulServer6542" target="1.8" />
+      <module name="dataBackup6005" target="1.8" />
+      <module name="disasterInfoCode8006" target="1.8" />
+      <module name="managementplatformv1" target="1.8" />
+      <module name="output6001" target="1.8" />
+      <module name="storageInformation9006" target="1.8" />
+      <module name="uploadfile8001" target="1.8" />
+      <module name="userManagement5001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

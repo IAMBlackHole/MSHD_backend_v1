@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/cloudEurekaServer7001/cloudEurekaServer7001.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/cloudEurekaServer7001/cloudEurekaServer7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/cloudZuulServer6542/cloudZuulServer6542.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/cloudZuulServer6542/cloudZuulServer6542.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/dataBackup6005/dataBackup6005.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/dataBackup6005/dataBackup6005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/disasterInfoCode8006/disasterInfoCode8006.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/disasterInfoCode8006/disasterInfoCode8006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/managementplatformv1.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/managementplatformv1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/managementplatformv1_backend.iml" filepath="$PROJECT_DIR$/.idea/managementplatformv1_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/output6001/output6001.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/output6001/output6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/storageInformation9006/storageInformation9006.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/storageInformation9006/storageInformation9006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/uploadfile8001/uploadfile8001.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/uploadfile8001/uploadfile8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/userManagement5001/userManagement5001.iml" filepath="$PROJECT_DIR$/managementplatformv1 3/managementplatformv1/userManagement5001/userManagement5001.iml" />
+    </modules>
+  </component>
+</project>
